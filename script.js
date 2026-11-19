@@ -6,6 +6,6 @@ function dropDown(){
 
 	
 		if(selectedIndex !== -1){
-			color.remove(selectedIndex)
+			color.options[selectedIndex].remove()
 		}
 }
