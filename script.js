@@ -2,10 +2,10 @@
 function dropDown(){
 	let color = document.getElementById("colorSelect")
 
-	let options = color.querySelector("option:checked")
+	let selectedIndex = color.selectedIndex
 
 	
-		if(options){
-			options.remove()
+		if(selectedIndex !== -1){
+			color.remove(selectedIndex)
 		}
 }
