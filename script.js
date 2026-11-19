@@ -5,7 +5,7 @@ function dropDown(){
 let colorSelect = color.value
 	let options = color.querySelectorAll("option")
 
-	option.forEach(option => {
+	options.forEach(option => {
 		if(option.value === colorSelect){
 			option.remove()
 		}
